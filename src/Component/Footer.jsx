@@ -16,6 +16,9 @@ const Page = styled.div`
 const Section = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
 `;
 const EndPage = styled.div`
   height: 10vh;
@@ -50,7 +53,7 @@ const Footer = () => {
           <Link>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Our Partners
-          </Link>z
+          </Link>
           <Link>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Media Coverage
