@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { AiOutlineArrowRight, AiFillYoutube } from "react-icons/ai";
+import { BsSpotify } from "react-icons/bs";
+import { FaFacebookF, FaInstagram, FaQuora } from "react-icons/fa";
+import { IoLogoTwitter, IoLogoLinkedin } from "react-icons/io";
+import { BsPinterest } from "react-icons/bs";
+
 
 const Explore = styled.div`
   display: flex;
@@ -11,7 +16,8 @@ const Explore = styled.div`
 const Page = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  padding: 11rem;
+  margin: 0;
 `;
 const Section = styled.div`
   display: flex;
@@ -20,6 +26,13 @@ const Section = styled.div`
   justify-content: center;
   justify-content: space-evenly;
 `;
+const Container = styled.div`
+  background-color: #f5f5f5;
+`;
+const FooterLink = styled(Link)`
+  text-decoration: none;
+`;
+
 const EndPage = styled.div`
   height: 10vh;
   display: flex;
@@ -28,130 +41,130 @@ const EndPage = styled.div`
 
 const Footer = () => {
   return (
-    <div>
+    <Container>
       <Section>
         <Explore>
           <h2>Explore</h2>
-          <Link to="./">
+          <FooterLink to="./">
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Home
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             About
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Speaker
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Blog
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Contact
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Our Partners
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Media Coverage
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Newsletter
-          </Link>
+          </FooterLink>
         </Explore>
         <Explore>
           <h2>Categories</h2>
-          <Link to="./">
+          <FooterLink to="./">
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Youth
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Lifestyle
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Education
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Technology
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Healthcare
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Entrepreneurship
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Women in Leadership
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Business & Leadership
-          </Link>
+          </FooterLink>
         </Explore>
         <Explore>
-          <h2>Quick Links</h2>
-          <Link to="./">
+          <h2>Quick FooterLinks</h2>
+          <FooterLink to="./">
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Become A Speaker
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Jobs & Careers
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Feedback
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Help Center
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Certificates
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Sponsorship
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Campus Ambassador
-          </Link>
-          <Link>
+          </FooterLink>
+          <FooterLink>
             <AiOutlineArrowRight style={{ color: "#Fa1b7d" }} />
             Freak Folks
-          </Link>
+          </FooterLink>
         </Explore>
       </Section>
       <Page>
-        <div>Follow Us</div>
-        <Link>Youtube</Link>
-        <Link>Spotify</Link>
-        <Link>Facebook</Link>
-        <Link>Twitter</Link>
-        <Link>Linkedin</Link>
-        <Link>Instagram</Link>
-        <Link>Pinterest</Link>
-        <Link>Quora</Link>
+        <h2>Follow Us</h2>
+        <div><AiFillYoutube style={{ color: "#Fa1b7d" }}/><FooterLink>Youtube</FooterLink></div>
+        <div><BsSpotify style={{ color: "#Fa1b7d" }}/><FooterLink>Spotify</FooterLink></div>
+        <div><FaFacebookF style={{ color: "#Fa1b7d" }}/><FooterLink>Facebook</FooterLink></div>
+        <div><IoLogoTwitter style={{ color: "#Fa1b7d" }} /><FooterLink>Twitter</FooterLink></div>
+        <div><IoLogoLinkedin style={{ color: "#Fa1b7d" }} /><FooterLink>Linkedin</FooterLink></div>
+        <div><FaInstagram style={{ color: "#Fa1b7d" }}/><FooterLink>Instagram</FooterLink></div>
+        <div><BsPinterest style={{ color: "#Fa1b7d" }}/><FooterLink>Pinterest</FooterLink></div>
+        <div><FaQuora style={{ color: "#Fa1b7d" }}/><FooterLink>Quora</FooterLink></div>
       </Page>
       <EndPage>
         Developed By <span style={{ color: "#Fa1b7d" }}>Freak Folks</span> | All
         Rights Reserved!
       </EndPage>
-    </div>
+    </Container>
   );
 };
 
