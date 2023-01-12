@@ -22,6 +22,8 @@ const Section = styled.div`
 `;
 const EndPage = styled.div`
   height: 10vh;
+  display: flex;
+  justify-content: center;
 `;
 
 const Footer = () => {

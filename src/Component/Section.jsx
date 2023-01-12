@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const Wrap = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
 `
 
 const Section = () => {

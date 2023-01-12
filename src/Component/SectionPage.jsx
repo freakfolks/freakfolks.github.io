@@ -12,7 +12,7 @@ const WrapSection = styled.div`
 `
 const Page = styled.div`
     background-color: #f5f5f5;
-    padding: 1rem;
+    padding: 3rem;
 `
 
 const SectionPage = ({ name, image }) => {
