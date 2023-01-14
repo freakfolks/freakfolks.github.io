@@ -40,7 +40,7 @@ const About = () => {
 
 </header>
 <section class="heading">
-    <h3>about us</h3>
+    <h3>About us</h3>
     <p> < Link to="/">home >></Link> about </p>
 </section>
 <section class="about">
