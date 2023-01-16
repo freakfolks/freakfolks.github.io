@@ -151,14 +151,14 @@ const Footer = () => {
       </Section>
       <Page>
         <h2>Follow Us</h2>
-        <div><AiFillYoutube style={{ color: "#Fa1b7d" }}/><FooterLink>Youtube</FooterLink></div>
-        <div><BsSpotify style={{ color: "#Fa1b7d" }}/><FooterLink>Spotify</FooterLink></div>
-        <div><FaFacebookF style={{ color: "#Fa1b7d" }}/><FooterLink>Facebook</FooterLink></div>
-        <div><IoLogoTwitter style={{ color: "#Fa1b7d" }} /><FooterLink>Twitter</FooterLink></div>
-        <div><IoLogoLinkedin style={{ color: "#Fa1b7d" }} /><FooterLink>Linkedin</FooterLink></div>
-        <div><FaInstagram style={{ color: "#Fa1b7d" }}/><FooterLink>Instagram</FooterLink></div>
-        <div><BsPinterest style={{ color: "#Fa1b7d" }}/><FooterLink>Pinterest</FooterLink></div>
-        <div><FaQuora style={{ color: "#Fa1b7d" }}/><FooterLink>Quora</FooterLink></div>
+        <div><AiFillYoutube style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Youtube</FooterLink></div>
+        <div><BsSpotify style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Spotify</FooterLink></div>
+        <div><FaFacebookF style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Facebook</FooterLink></div>
+        <div><IoLogoTwitter style={{ color: "#Fa1b7d", marginRight: "1rem" }} /><FooterLink>Twitter</FooterLink></div>
+        <div><IoLogoLinkedin style={{ color: "#Fa1b7d", marginRight: "1rem" }} /><FooterLink>Linkedin</FooterLink></div>
+        <div><FaInstagram style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Instagram</FooterLink></div>
+        <div><BsPinterest style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Pinterest</FooterLink></div>
+        <div><FaQuora style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Quora</FooterLink></div>
       </Page>
       <EndPage>
         Developed By <span style={{ color: "#Fa1b7d" }}>Freak Folks</span> | All
