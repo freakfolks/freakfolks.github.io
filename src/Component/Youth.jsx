@@ -15,45 +15,9 @@ import course8 from '../images/course-9.png'
 const Youth = () => {
   return (
     <>
-    <header class="header">
-
-    <Link to="/" class="logo"> <i class="fas fa-microphone"></i> Honest Talk </Link>
-
-    <div id="menu-btn" class="fas fa-bars"></div>
-
-    <nav class="navbar">
-        <ul>
-            <li><Link to="/">home</Link></li>
-            <li><Link to="/about">about</Link></li>
-            <li><a href="#">Talks +</a>
-                <ul>
-                    <li><Link to="/Youth">Youth</Link></li>
-                    <li><Link to="/Lifestyle">Lifestyle</Link></li>
-                    <li><Link to="/Education">Education</Link></li>
-                    <li><Link to="/Technology">Technology</Link></li>
-                    <li><Link to="/Healthcare">Healthcare</Link></li>                    
-                    <li><Link to="/Entrepreneurship">Entrepreneurship</Link></li>
-                    <li><Link to="/Women">Women In Leadership</Link></li>
-                    <li><Link to="/Business">Business & Leadership</Link></li>
-                </ul>
-            </li>
-            <li><a href="#">pages +</a>
-                <ul>
-                    <li><Link to="/Seakers">our speakers</Link></li>
-                    <li><Link to="/Blog">blogs</Link></li>
-                </ul>
-            </li>
-            <li><Link to="/contact">contact</Link></li>
-        </ul>
-    </nav>
-
-</header>
-
-
-
 <section class="heading">
     <h3>course 01</h3>
-    <p> <Link to="/">home >></Link> course-1 </p>
+    <p> <Link to="/">home</Link> course-1 </p>
 </section>
 
 

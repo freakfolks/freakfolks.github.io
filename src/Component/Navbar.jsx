@@ -10,7 +10,7 @@ const Nav = styled.div`
   display: flex;
   flex-direction: row;
   height: 8vh;
-  padding: 1rem 2.0rem;
+  padding: 1rem 2rem;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
@@ -22,10 +22,10 @@ const Logo = styled.div`
 `;
 const HomeStyle = styled.div`
   margin-left: 35rem;
-  margin-Top: 0.5rem;
+  margin-top: 0.5rem;
 `;
 const Div = styled.div`
-  margin-Top: 0.5rem;
+  margin-top: 0.5rem;
 `;
 
 const HeadLink = styled(Link)`
@@ -41,21 +41,36 @@ const Navbar = () => {
         <FaMicrophone style={{ color: "#Fa1b7d" }} />
         Honest Talks
       </Logo>
-      <HomeStyle>
-        <HeadLink to="/">Home</HeadLink>
-      </HomeStyle>
-      <Div>
-        <HeadLink to="/about">About</HeadLink>
-      </Div>
-      <Div>
-        <HeadLink to="/talks">Talks+</HeadLink>
-      </Div>
-      <Div>
-        <HeadLink to="/pages">Pages+</HeadLink>
-      </Div>
-      <Div>
-        <HeadLink to="Contact">Contact</HeadLink>
-      </Div>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <header class="header">
+    <nav class="navbar">
+        <ul>
+            <li><Link to='/'>home</Link></li>
+            <li><Link to='/about'>about</Link></li>
+            <li><Link to='/talks'>Talks +</Link>
+                <ul>
+                    <li><Link to="/Youth">Youth</Link></li>
+                    <li><Link to="/Lifestyle">Lifestyle</Link></li>
+                    <li><Link to="/Education">Education</Link></li>
+                    <li><Link to="/Technology">Technology</Link></li>
+                    <li><Link to="/Healthcare">Healthcare</Link></li>                    
+                    <li><Link to="/Entrepreneurship">Entrepreneurship</Link></li>
+                    <li><Link to="/Women">Women In Leadership</Link></li>
+                    <li><Link to="/Business">Business & Leadership</Link></li>
+                </ul>
+            </li>
+            <li><Link to="/pages">pages +</Link>
+                <ul>
+                    <li><Link to="/Speakers">our speakers</Link></li>
+                    <li><Link to="/Blog">blogs</Link></li>
+                </ul>
+            </li>
+            <li><Link to="/contact">contact</Link></li>
+        </ul>
+    </nav>
+    </header>
     </Nav>
   );
 };
