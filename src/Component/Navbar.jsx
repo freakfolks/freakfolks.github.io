@@ -19,19 +19,10 @@ const Logo = styled.div`
   font-size: 24px;
   font-weight: bold;
   margin-right: 2rem;
-`;
-const HomeStyle = styled.div`
-  margin-left: 35rem;
-  margin-top: 0.5rem;
-`;
-const Div = styled.div`
-  margin-top: 0.5rem;
-`;
-
-const HeadLink = styled(Link)`
-  text-decoration: none;
-  color: #ffffff;
-  margin-left: 20px;
+  display: flex;
+  gap: 2;
+  align-items: center;
+  object-fit: cover;
 `;
 
 const Navbar = () => {
@@ -46,7 +37,7 @@ const Navbar = () => {
 
     <header class="header">
     <nav class="navbar">
-        <ul>
+        <ul class="list">
             <li><Link to='/'>home</Link></li>
             <li><Link to='/about'>about</Link></li>
             <li><Link to='/talks'>Talks +</Link>
