@@ -46,7 +46,7 @@ function Lifestyle() {
 </header>
 <section class="heading">
     <h3>course 02</h3>
-    <p> <a href="home.html">home >></a> course-2 </p>
+    <p> <a href="home.html">home</a> course-2 </p>
 </section>
 
 

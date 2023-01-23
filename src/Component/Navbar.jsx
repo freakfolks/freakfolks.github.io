@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import { FaMicrophone } from "react-icons/fa";
 import styled from "styled-components";
 
+const DuLink = styled(Link)`
+text-decoration: none;
+margin-left: "1rem"
+`;
+
 const Nav = styled.div`
   margin: 0 auto;
   background-color: #0e0e0e;
@@ -38,9 +43,9 @@ const Navbar = () => {
     <header class="header">
     <nav class="navbar">
         <ul class="list">
-            <li><Link to='/'>home</Link></li>
-            <li><Link to='/about'>about</Link></li>
-            <li><Link to='/talks'>Talks +</Link>
+            <li><DuLink className="Link" to='/'>Home</DuLink></li>
+            <li><DuLink to='/about'>About</DuLink></li>
+            <li><DuLink to='/talks'>Talks +</DuLink>
                 <ul>
                     <li><Link to="/Youth">Youth</Link></li>
                     <li><Link to="/Lifestyle">Lifestyle</Link></li>
@@ -52,13 +57,13 @@ const Navbar = () => {
                     <li><Link to="/Business">Business & Leadership</Link></li>
                 </ul>
             </li>
-            <li><Link to="/pages">pages +</Link>
+            <li><DuLink to="/pages">Pages +</DuLink>
                 <ul>
-                    <li><Link to="/Speakers">our speakers</Link></li>
-                    <li><Link to="/Blog">blogs</Link></li>
+                    <li><Link to="/Speakers">Our Speakers</Link></li>
+                    <li><Link to="/Blog">Blogs</Link></li>
                 </ul>
             </li>
-            <li><Link to="/contact">contact</Link></li>
+            <li><DuLink to="/contact">Contact</DuLink></li>
         </ul>
     </nav>
     </header>

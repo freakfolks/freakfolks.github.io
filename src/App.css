@@ -109,6 +109,8 @@ section {
 
 .header .navbar ul {
   list-style: none;
+  display: flex;
+  margin-left: 13rem;
 }
 
 .header .navbar ul li {
@@ -118,6 +120,10 @@ section {
 
 .header .navbar ul li:hover ul {
   display: block;
+}
+
+.Link {
+color: red;
 }
 
 .header .navbar ul li a {

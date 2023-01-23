@@ -25,6 +25,7 @@ const Section = styled.div`
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 `;
 const Container = styled.div`
   background-color: #f5f5f5;
@@ -36,8 +37,17 @@ const FooterLink = styled(Link)`
 const EndPage = styled.div`
   height: 10vh;
   display: flex;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 `;
+
+const Line = styled.hr`
+ color: grey;
+ width: 800px;
+ margin-bottom: 10px;
+`;
+
 
 const Footer = () => {
   return (
@@ -148,8 +158,7 @@ const Footer = () => {
             Freak Folks
           </FooterLink>
         </Explore>
-      </Section>
-      <Page>
+        <Explore>
         <h2>Follow Us</h2>
         <div><AiFillYoutube style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Youtube</FooterLink></div>
         <div><BsSpotify style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Spotify</FooterLink></div>
@@ -159,7 +168,9 @@ const Footer = () => {
         <div><FaInstagram style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Instagram</FooterLink></div>
         <div><BsPinterest style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Pinterest</FooterLink></div>
         <div><FaQuora style={{ color: "#Fa1b7d", marginRight: "1rem" }}/><FooterLink>Quora</FooterLink></div>
-      </Page>
+      </Explore>
+      </Section>
+      <Line></Line>
       <EndPage>
         Developed By <span style={{ color: "#Fa1b7d" }}>Freak Folks</span> | All
         Rights Reserved!

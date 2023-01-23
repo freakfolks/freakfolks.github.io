@@ -6,21 +6,22 @@ const WrapSection = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:2;
-    padding: 2rem;
+    gap:1;
+    padding: 1rem;
     align-items: center;
+    border-radius: 50px;
 `
 const Page = styled.div`
     background-color: #f5f5f5;
     padding: 3rem;
 `
 
-const SectionPage = ({ name, image }) => {
+const SectionPage = ({ name, image, alt }) => {
   return (
     <WrapSection>
       <Page>
       <div>
-        <img src={image} alt={image} />
+        <img src={image} alt={alt} />
       </div>
       <div>{name}</div>
       </Page>
