@@ -110,12 +110,13 @@ section {
 .header .navbar ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   margin-left: 13rem;
 }
 
 .header .navbar ul li {
   position: relative;
-  float: left;
+  
 }
 
 .header .navbar ul li:hover ul {
@@ -124,6 +125,7 @@ section {
 
 .Link {
 color: red;
+
 }
 
 .header .navbar ul li a {
