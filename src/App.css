@@ -94,7 +94,7 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 9%;
-  background: #000000;
+  
 }
 
 .header .logo {
@@ -131,7 +131,7 @@ color: red;
 .header .navbar ul li a {
   padding: 1rem;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -140,11 +140,16 @@ color: red;
 }
 
 .header .navbar ul li ul {
+  /* position: absolute; */
+  /* left: 0; */
+  width: 15rem;
   position: absolute;
-  left: 0;
-  width: 20rem;
-  background: #000000;
+  right: 2;
+  top: 10;
+  background: #0e0e0e;
   display: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header .navbar ul li ul li {

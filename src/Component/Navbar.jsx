@@ -18,8 +18,8 @@ const Nav = styled.div`
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  height: 7vh;
- padding: 1rem;
+  height: 7vh; 
+  padding: 0.4rem 6rem;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
