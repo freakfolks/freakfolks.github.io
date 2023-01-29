@@ -116,7 +116,7 @@ section {
 
 .header .navbar ul li {
   position: relative;
-  
+  float: left;
 }
 
 .header .navbar ul li:hover ul {
